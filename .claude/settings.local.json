@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python trust_checker.py nginx:latest nignx:latest bitnami/nginx:latest gcr.io/google-containers/pause:3.1)",
+      "Bash(python run_experiments.py)",
+      "Read(//usr/local/**)",
+      "Read(//usr/**)",
+      "Read(//c/Program Files/**)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}

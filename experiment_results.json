@@ -1,0 +1,158 @@
+{
+  "exp1": [
+    {
+      "image": "nginx:latest",
+      "risk_score": 26.03,
+      "risk_level": "MEDIUM",
+      "total": 193,
+      "critical": 0,
+      "high": 12,
+      "medium": 57,
+      "low": 124,
+      "fixable": 0,
+      "unfixable": 193,
+      "packages": 52
+    },
+    {
+      "image": "python:3.9",
+      "risk_score": 36.68,
+      "risk_level": "MEDIUM",
+      "total": 3948,
+      "critical": 157,
+      "high": 883,
+      "medium": 1808,
+      "low": 1022,
+      "fixable": 1896,
+      "unfixable": 2052,
+      "packages": 196
+    },
+    {
+      "image": "node:18",
+      "risk_score": 37.31,
+      "risk_level": "MEDIUM",
+      "total": 4679,
+      "critical": 183,
+      "high": 1134,
+      "medium": 2216,
+      "low": 1073,
+      "fixable": 2246,
+      "unfixable": 2433,
+      "packages": 201
+    },
+    {
+      "image": "ubuntu:20.04",
+      "risk_score": 15.85,
+      "risk_level": "LOW",
+      "total": 2,
+      "critical": 0,
+      "high": 0,
+      "medium": 2,
+      "low": 0,
+      "fixable": 2,
+      "unfixable": 0,
+      "packages": 2
+    },
+    {
+      "image": "alpine:latest",
+      "risk_score": 0.0,
+      "risk_level": "MINIMAL",
+      "total": 0,
+      "critical": 0,
+      "high": 0,
+      "medium": 0,
+      "low": 0,
+      "fixable": 0,
+      "unfixable": 0,
+      "packages": 0
+    }
+  ],
+  "exp2": [
+    {
+      "old": {
+        "image": "nginx:1.20",
+        "risk_score": 37.45,
+        "risk_level": "MEDIUM",
+        "total": 634,
+        "critical": 30,
+        "high": 156,
+        "medium": 257,
+        "low": 181,
+        "fixable": 378,
+        "unfixable": 256,
+        "packages": 79
+      },
+      "new": {
+        "image": "nginx:latest",
+        "risk_score": 26.03,
+        "risk_level": "MEDIUM",
+        "total": 193,
+        "critical": 0,
+        "high": 12,
+        "medium": 57,
+        "low": 124,
+        "fixable": 0,
+        "unfixable": 193,
+        "packages": 52
+      },
+      "delta": -11.42
+    },
+    {
+      "old": {
+        "image": "python:3.8",
+        "risk_score": 37.33,
+        "risk_level": "MEDIUM",
+        "total": 6141,
+        "critical": 185,
+        "high": 1555,
+        "medium": 3180,
+        "low": 1144,
+        "fixable": 3672,
+        "unfixable": 2469,
+        "packages": 212
+      },
+      "new": {
+        "image": "python:3.12",
+        "risk_score": 30.21,
+        "risk_level": "MEDIUM",
+        "total": 2054,
+        "critical": 3,
+        "high": 289,
+        "medium": 686,
+        "low": 998,
+        "fixable": 2,
+        "unfixable": 2052,
+        "packages": 171
+      },
+      "delta": -7.12
+    },
+    {
+      "old": {
+        "image": "ubuntu:18.04",
+        "risk_score": 0.0,
+        "risk_level": "MINIMAL",
+        "total": 0,
+        "critical": 0,
+        "high": 0,
+        "medium": 0,
+        "low": 0,
+        "fixable": 0,
+        "unfixable": 0,
+        "packages": 0
+      },
+      "new": {
+        "image": "ubuntu:22.04",
+        "risk_score": 20.02,
+        "risk_level": "LOW",
+        "total": 35,
+        "critical": 0,
+        "high": 0,
+        "medium": 17,
+        "low": 18,
+        "fixable": 1,
+        "unfixable": 34,
+        "packages": 28
+      },
+      "delta": 20.02
+    }
+  ]
+}
