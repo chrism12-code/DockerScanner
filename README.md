@@ -43,7 +43,3 @@ requirements.txt
 .env.example
 ```
 
-## Course
-
-COT6930 — Generative Intelligence and Software Development Lifecycles  
-Florida Atlantic University
